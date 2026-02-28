@@ -58,12 +58,15 @@ TOOL_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SCRIPT_PATH="$TOOL_ROOT/scripts/plan_loop.py"
 
 # Build arguments
-ARGS=("--plan" "$PLAN_PATH" "--mode" "$MODE" "--max-rounds" "$MAX_ROUNDS" "--model" "$MODEL")
+ARGS=("$PLAN_PATH")
 if [ "$NO_CAP" = true ]; then
     ARGS+=("--no-cap")
 fi
 if [ "$RESUME" = true ]; then
     ARGS+=("--resume")
+fi
+if [ "$MAX_ROUNDS" != 999 ]; then
+    ARGS+=("--max-rounds" "$MAX_ROUNDS")
 fi
 
 # Run the Python script

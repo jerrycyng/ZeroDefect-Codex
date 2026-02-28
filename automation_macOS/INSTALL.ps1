@@ -25,9 +25,7 @@ $pythonScript = Join-Path $InstallDir "scripts\plan_loop.py"
 $batContent = @"
 @echo off
 setlocal
-set PLAN_PATH=%1
-shift
-python "$pythonScript" --plan "%PLAN_PATH%" %1 %2 %3 %4 %5 %6 %7 %8 %9
+python "$pythonScript" %*
 endlocal
 "@
 

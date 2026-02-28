@@ -41,17 +41,12 @@ if (-not $pythonCmd) {
 
 $argsList = @(
     $scriptPath
-    "--plan"
     $resolvedPlanPath
-    "--mode"
-    $Mode
-    "--max-rounds"
-    "$MaxRounds"
 )
 
-if ("" -ne $Model) {
-    $argsList += "--model"
-    $argsList += $Model
+if ($MaxRounds -ne 999) {
+    $argsList += "--max-rounds"
+    $argsList += "$MaxRounds"
 }
 
 if ($NoCap) {
