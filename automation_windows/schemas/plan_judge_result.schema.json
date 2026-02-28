@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "pass": {
+      "type": "boolean"
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "severity_counts": {
+      "type": "object",
+      "properties": {
+        "high": {
+          "type": "integer"
+        },
+        "medium": {
+          "type": "integer"
+        },
+        "low": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "additionalProperties": false
+    },
+    "blocking": {
+      "type": "boolean"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "rewrite_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "pass",
+    "problems",
+    "severity_counts",
+    "blocking",
+    "summary",
+    "rewrite_instructions"
+  ],
+  "additionalProperties": false
+}

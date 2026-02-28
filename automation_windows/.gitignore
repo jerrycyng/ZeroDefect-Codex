@@ -1,0 +1,19 @@
+# Ignore all run artifacts
+plans/iterations/
+plans/final/
+plans/state/
+plans/manual_handoff/
+
+# Except the placeholders
+!plans/iterations/.gitkeep
+!plans/final/.gitkeep
+!plans/state/.gitkeep
+!plans/manual_handoff/.gitkeep
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

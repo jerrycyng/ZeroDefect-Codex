@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File "$PSScriptRoot\tools\run-plan-loop.ps1" @args

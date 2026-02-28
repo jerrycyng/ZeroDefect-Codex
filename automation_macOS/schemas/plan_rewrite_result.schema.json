@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "revised_plan_markdown": {
+      "type": "string"
+    },
+    "applied_fixes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "remaining_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "revised_plan_markdown",
+    "applied_fixes",
+    "remaining_risks",
+    "summary"
+  ],
+  "additionalProperties": false
+}
