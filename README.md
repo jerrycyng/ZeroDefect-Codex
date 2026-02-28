@@ -99,5 +99,8 @@ plan-loop your-plan.md
 
 MIT License - see [LICENSE](LICENSE) for details.
 
----
-**Built for the Uncompromising.** For teams that demand zero-defect plans before a single line of code is written.
+## 🙏 Built For The Uncompromising
+
+For developers who don't settle for "good enough." For teams that demand perfection. For anyone who wants their plans to actually work in the real world.
+
+**Ready to eliminate plan failures forever?** Let's get started.</content>
