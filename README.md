@@ -132,4 +132,3 @@ MIT License - see [LICENSE](LICENSE) for the fine print.
 For developers who don't settle for "good enough." For teams that demand perfection. For anyone who wants their plans to actually work in the real world.
 
 **Ready to eliminate plan failures forever?** Let's get started.</content>
-<parameter name="filePath">c:\Users\jerry\OneDrive\PC\Lenovo X240\Documents\NUS\Github\Codex Prompt Automation\README.md
