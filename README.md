@@ -1,4 +1,4 @@
-# ChatGPT Prompt Automation (Codex Edition)
+# ZeroDefect-Codex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
